@@ -1,6 +1,362 @@
-section{
-    background-color: blue;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid blue; */
 }
-footer{
-    background-color: black;
+
+body{
+    margin: 2rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color:dimgray;
+    margin: 0.5rem;
+}
+nav a:hover{
+    color:aqua;
+    font-weight: 800;
+}
+
+.button-gs1{
+    width: 134px;
+    height: 44px;
+    background: #8B48BF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+}
+.button-gs1:hover{
+    background-color:aqua;
+    border-radius: 2rem;
+    padding: 8px;
+    color:midnightblue;
+}
+.Home{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
+    padding: 80px;
+    margin-top: 2rem;
+}
+.container1{
+    margin-top: 8rem;
+    width: 100%;
+    padding-left: 12rem;
+    padding-right: 7rem;
+}
+h2{
+    font-size: 60px;
+    color: rgb(4, 4, 79);
+}
+.parrafo1{
+    margin-top: 10px;
+    width: 65%;
+    padding-right: 1rem;
+    color: black;
+    font-weight:500;
+}
+.button-gs2{
+    width: 134px;
+    height: 44px;
+    background: #8B48BF;
+    color: #ffffff;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+    margin-top: 1rem;
+}
+.button-gs2:hover{
+    background-color:aqua;
+    border-radius: 2rem;
+    padding: 8px;
+    color:midnightblue;
+}
+.grafic{
+    margin-right: 12rem;
+    margin-left: 1rem;
+}
+.sectwo{
+    display: flex;
+    width: 100%;
+    padding: 100px;
+    color:rgb(2, 2, 68);
+    justify-content: center;
+}
+.part2{
+    width: 30%;
+    font-weight: 500;
+
+}
+.manage{
+    width: 100%;
+    font-size: 36px;
+    text-align: start;
+}
+.psec2{
+    width: 21rem;
+    margin-top: -6rem;
+    text-decoration: black;
+}
+.secthree{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    width: 50%;
+}
+.p-secthree1{
+    margin-top: 1rem;
+    width:95%;
+    font-weight: 200;
+    font-size: 16px;
+    /* line-height: 25px; */
+    color: #b3b2b7;
+}
+.p-secthree2{
+    margin-top: 1rem;
+    width: 98%;
+    font-weight: 200;
+    font-size: 16px;
+    /* line-height: 25px; */
+    color: #b3b2b7;
+}
+.p-secthree3{
+    margin-top: 1rem;
+    width: 80%;
+    font-weight: 200;
+    font-size: 16px;
+    /* line-height: 25px; */
+    color: #b3b2b7;
+    /* margin: auto; */
+}
+.b-num{
+    width: 69px;
+    height: 40px;
+    background: #8B48BF;
+    border-radius: 30px;
+    color: #ffffff;
+    border: none; 
+    font-weight: 700; 
+    font-size: 1rem;  
+}
+.b-3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+.items{
+    display:flex;
+    margin-left: 15rem;
+    margin-bottom: 3rem;
+}
+/* Cards */
+h3{
+    font-size: 40px;
+    color: rgb(4, 4, 79);
+    text-align: center;
+    margin-bottom: 9rem;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.card-all{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    background-color: rgb(246, 242, 242);
+}
+.card1, .card2, .card3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 2rem;
+}
+.cards{
+    text-align: center;
+}
+.title-ali{
+    color: rgb(4, 4, 79);
+}
+.p-cards{
+    color: #b3b2b7;
+    font-weight: 500;
+}
+.title-ali{
+    margin-bottom: 1rem;
+}
+.img-ali, .img-anisha, .img-richar{
+    margin-top: -6rem;
+    margin-bottom: 4rem;
+
+} 
+.art-b{
+    text-align: center;
+}
+.button-gs3{
+    width: 134px;
+    height: 44px;
+    background: #8B48BF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+}
+.button-gs3:hover{
+    background-color:aqua;
+    border-radius: 2rem;
+    padding: 8px;
+    color:midnightblue;
+}
+.sec-f{
+    background-color: #8B48BF;
+    display: flex;
+    margin-top: 8rem;
+    align-items: center;
+    justify-content:space-around;
+    margin-block: 7rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 0;
+    height: 25vh;
+}
+.tittle-f{
+    color: #ffffff;
+    width: 35%;
+    font-size: 40px;
+    padding: 2rem;
+    height: 11rem;
+    align-items: center;
+    margin-right: 15rem;
+}
+.button-gs4{
+    width: 134px;
+    height: 44px;
+    background: #ffffff;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: #8B48BF;
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+    margin-right: 5rem;
+}
+.button-gs4:hover{
+    background-color:aqua;
+    border-radius: 2rem;
+    padding: 8px;
+    color:midnightblue;
+}
+/* footer */
+.footer{
+    display: flex;
+    background-color: rgb(29, 28, 28);
+    color: #ffffff;
+    margin-bottom: 2rem;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding: 40px;
+    padding-right: 5rem;
+    height: 30vh;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+.imgf-logo{
+    margin-bottom: 4rem;
+}
+
+.icons-redes{
+    display: flex;
+}
+.icons{
+    list-style: none;
+    display: flex;
+}
+.list-icon{
+    display: flex;
+    margin: 6px;
+}
+
+
+.list-i{
+    margin: 1rem;
+    font-weight: 20;
+}
+.list-icon:hover{
+    background-color:blueviolet;
+    border: 2px solid aqua;
+    cursor: pointer;
+}
+
+.list-i:hover{
+    
+    color: aqua;
+}
+.list1{
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
+.list{
+    list-style: none;
+    margin: 2rem;
+}
+.list2{
+    margin-bottom: 3rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.copyright{
+    display: flex;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-size: 12px;
+    justify-content: flex-end;
+    color: rgb(146, 142, 142);
+    font-weight: 500;
+}
+.go{
+    width: 69px;
+    height: 43px;
+    background: #8B48BF;
+    border-radius: 30px;
+    color: #ffffff;
+    border: none;
+    margin-left: 10px; 
+}
+
+.update{
+    border-radius: 60px;
+    padding: 13px;
+}
+.go:hover{
+    background-color: white;
+    border-radius: 2rem;
+    padding: 8px;
+    color:#8B48BF;
 }
